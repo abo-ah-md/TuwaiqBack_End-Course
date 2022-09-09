@@ -1,0 +1,33 @@
+const People = [
+  {
+    id: 1,
+    firstName: "khalid",
+    lastName: "tamimi",
+    age: 24,
+    city: "yanbu",
+  },
+  {
+    id: 2,
+    firstName: "salih",
+    lastName: "mshari",
+    age: 30,
+    city: "Khubar",
+  },
+  {
+    id: 3,
+    firstName: "ahmed",
+    lastName: "omar",
+    age: 20,
+    city: "Dammam",
+  },
+  {
+    id: 4,
+    firstName: "anwr",
+    lastName: "hassan",
+    age: 18,
+    city: "jeddah",
+  },
+];
+
+module.exports = People;
+

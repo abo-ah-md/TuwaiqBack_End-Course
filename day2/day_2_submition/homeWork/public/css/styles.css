@@ -1,0 +1,77 @@
+body{
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+  height: 100vh;
+  color: rgb(255, 255, 255);
+  background-image:repeating-linear-gradient(-45deg,black,black 4px,#444 5px,#444 5px);
+  background-repeat: repeat;
+  animation: entry 1.5s ease-in-out forwards;
+  -webkit-animation: entry 1.5s ease-in-out forwards;
+}
+
+.greet{
+    font-size: 90px;
+    animation: entry 1.5s ease-in-out forwards;
+  -webkit-animation: entry 1.5s ease-in-out forwards;
+}
+
+
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: entry 1.5s ease-in-out forwards;
+    -webkit-animation: entry 1.5s ease-in-out forwards;
+}
+
+@keyframes entry{
+0%{
+font-size: 0%;
+}
+
+100%{
+    
+}
+} 
+
+
+.flex_1{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li{
+    font-size: 40px;
+    animation: show 1s ease-in-out forwards;
+    -webkit-animation: show 1s ease-in-out forwards;
+}
+@keyframes show{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+.logo{
+    width:30px;
+}
+
+.cat_img{
+    width:400px;
+    height: 200px;
+    animation: show 1s ease-in-out forwards;
+    -webkit-animation: show 1s ease-in-out forwards;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    }
