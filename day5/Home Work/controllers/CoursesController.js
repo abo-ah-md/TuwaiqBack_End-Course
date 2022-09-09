@@ -1,1 +1,1 @@
-const courses = require('/models/Courses');
+const courses = require('/models/Courses'); 
